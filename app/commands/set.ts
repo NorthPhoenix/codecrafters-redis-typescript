@@ -14,7 +14,7 @@ export default (connection: Socket, request: (string | null)[]) => {
 	}
 	const config: SetConfigType = { expiry: null }
 	let arg = args.shift()
-	while (arg !== null || arg !== undefined) {
+	while (arg !== null && arg !== undefined) {
 		switch (arg?.toLowerCase()) {
 			case "px": {
 				const expireTimeStr = args.shift()
