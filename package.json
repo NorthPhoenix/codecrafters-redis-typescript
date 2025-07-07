@@ -7,10 +7,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
-    "@types/bun": "latest",
-    "@types/luxon": "^3.6.2"
-  },
-  "dependencies": {
-    "luxon": "^3.6.1"
+    "@types/bun": "latest"
   }
 }
